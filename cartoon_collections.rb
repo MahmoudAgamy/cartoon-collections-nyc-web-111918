@@ -1,5 +1,5 @@
 def roll_call_dwarves(arr)
-  new_arr = arr.map_with_index { |name, idx| "#{idx+1}. #{name}"}
+  new_arr = arr.map.with_index { |name, idx| "#{idx+1}. #{name}"}
   puts new_arr
 end
 
