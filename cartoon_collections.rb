@@ -1,5 +1,6 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(arr)
+  new_arr = arr.map_with_index { |name, idx| "#{idx+1}. #{name}"}
+  puts new_arr
 end
 
 def summon_captain_planet# code an argument here
